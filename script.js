@@ -23,7 +23,7 @@ function nextSequence(){
 
 
 function animate(chosenColor){
-    $('#' + chosenColor).addClass('pressed');
+    $('.' + chosenColor).addClass('pressed');
 
     setTimeout(function(){
         $('#' + chosenColor).removeClass('pressed');

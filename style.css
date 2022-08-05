@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: #011F3F;
+    user-select: non;
   }
   
   #level-title {
@@ -24,8 +25,30 @@ body {
     width: 200px;
     border: 10px solid black;
     border-radius: 20%;
+    cursor: pointer;
   }
 
+  .btn:hover{
+    border-color: blue;
+  }
+
+
+  @media screen and (max-width : 1000px) {
+    .container{
+      width: 100%;
+      margin-top: 30%;
+    }
+
+    .btn {
+      margin: 25px;
+      height: 250px;
+      width: 250px;
+    }
+    
+    .row{
+      width: 100%;
+    }
+  }
 
   
   .game-over {
@@ -55,16 +78,5 @@ body {
   }
 
 
-  @media screen and (min-width : 400px) {
-    .container{
-      width: 100%;
-      margin-top: 30%;
-    }
 
-    .btn {
-      margin: 25px;
-      height: 250px;
-      width: 250px;
-    }    
-  }
 
