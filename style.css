@@ -53,4 +53,18 @@ body {
     box-shadow: 0 0 20px white;
     background-color: grey;
   }
-  
+
+
+  @media screen and (min-width : 400px) {
+    .container{
+      width: 100%;
+      margin-top: 30%;
+    }
+
+    .btn {
+      margin: 25px;
+      height: 250px;
+      width: 250px;
+    }    
+  }
+
